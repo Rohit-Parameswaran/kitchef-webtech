@@ -9,27 +9,27 @@ import NextArrow from "../../common/carousel/nextArrow";
 const deliveryItems = [
   {
     id: 1,
-    title: "Pizza",
+    title: "North Indian Cuisine",
     cover:
-      "https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png",
+      "Cuisine1.jfif",
   },
   {
     id: 2,
-    title: "Burger",
+    title: "South Indian Cuisine",
     cover:
-      "https://b.zmtcdn.com/data/o2_assets/dff007e05e2f72a4abc0772c7a8cd0951632716697.png",
+    "Cuisine2.jfif",
   },
   {
     id: 3,
-    title: "Rolls",
+    title: "Continental Cuisine",
     cover:
-      "https://b.zmtcdn.com/data/o2_assets/e61347d2b01cfae669530bd4b8e778e41632716577.png",
+    "Cuisine3.jfif",
   },
   {
     id: 4,
-    title: "Cake",
+    title: "Italian Cuisine",
     cover:
-      "https://b.zmtcdn.com/data/o2_assets/9694b563c793ea7bddf49f619dd4b7751632716697.png",
+    "Cuisine4.jfif",
   },
   {
     id: 5,

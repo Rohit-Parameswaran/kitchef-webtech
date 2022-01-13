@@ -21,11 +21,13 @@
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  border: 1px solid #eee;
+  overflow: hidden;
   background-color: var(--inactive-color);
 }
 .tab-image {
-  height: 30px;
-  width: 30px;
+  height: 100%;
+  width: 100%;
 }
 
 .active-tab {
