@@ -30,43 +30,43 @@ const topBrandsList = [
     id: 4,
     time: "30 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R4.jfif",
+    link:"https://www.biggerbolderbaking.com/best-ever-brownies/"
   },
   {
     id: 6,
     time: "38 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R5.jfif",
+    link:"https://www.indianhealthyrecipes.com/naan/"
   },
   {
     id: 7,
     time: "31 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R6.jfif",
+    link:"https://www.vegrecipesofindia.com/veg-noodles-recipe-easy-veg-noodles/"
   },
   {
     id: 8,
     time: "30 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R7.jpg",
+    link:"https://www.whiskaffair.com/vegetable-spring-rolls/"
   },
   {
     id: 9,
     time: "40 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R8.jfif",
+    link:"https://recipes.timesofindia.com/recipes/chicken-burger/rs75673473.cms"
   },
   {
     id: 10,
     time: "35 min",
     cover:
-    "R1.jpg",
-    link:"https://natashaskitchen.com/red-velvet-cake-recipe/"
+    "R9.jfif",
+    link:"https://recipes.timesofindia.com/recipes/veg-sandwich-with-yogurt-spread/rs60057435.cms"
   },
 ];
 
