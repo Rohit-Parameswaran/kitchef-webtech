@@ -31,9 +31,9 @@
 }
 
 .active-tab {
-  border-bottom: 2px solid var(--zomato-red);
+  border-bottom: 2px solid var(--kitchef-red);
 }
 
 .active-tab .tab-name {
-  color: var(--zomato-red);
+  color: var(--kitchef-red);
 }
