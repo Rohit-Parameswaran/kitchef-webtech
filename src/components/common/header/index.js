@@ -1,7 +1,8 @@
 import React from "react";
 import "./header.css";
 
-const Header = () => {
+const Header = (props) => {
+  const {user, handleLogout} = props;
   return (
     <div className="header max-width">
       <img className="header-pic" src="headerlogo.svg" alt="Kitchef logo" />
@@ -25,19 +26,14 @@ const Header = () => {
           </div>
         </div>
 
-        {/* ///////////////////////////////////////// */}
-        {/* ///////////////////////////////////////// */}
-        {/* Add login and signup buttons here */}
-        {/* ///////////////////////////////////////// */}
-        {/* ///////////////////////////////////////// */}
         <div className="profile-wrapper">
           <img
             src="login.png"
             className="header-profile-image"
             alt="sign-in logo"
           />
-          <span className="header-username">Ramya</span>
-          {/*<i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>*/}
+          <span onClick={handleLogout} className="header-username">{user.bc.email}</span>
+          <i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
         </div>
       </div>
     </div>

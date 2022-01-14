@@ -7,11 +7,11 @@ import Delivery from "../../components/delivery";
 import DiningOut from "../../components/diningOut";
 import Nightlife from "../../components/nightlife";
 
-const HomePage = () => {
+const HomePage = (props) => {
   const [activeTab, setActiveTab] = useState("Food");
   return (
     <div>
-      <Header />
+      <Header handleLogout={props.handleLogout} user={props.user}/>
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
       <Footer />
