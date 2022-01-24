@@ -34,10 +34,7 @@ const Header = (props) => {
             alt="sign-in logo"
           />
           <span className="header-username">{user.bc.email}</span>
-          <select>
-          <option onClick={handleLogout} value="LOGOUT">LOGOUT </option>
-          <i onClick={handleLogout} className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
-          </select>
+          <button onClick={handleLogout} className="button">Logout</button>
           
         </div>
       </div>

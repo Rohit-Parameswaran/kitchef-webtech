@@ -15,7 +15,7 @@ export const dining = [
       rating: {
         has_fake_reviews: 0,
         aggregate_rating: "3.9",
-        rating_text: "3.9",
+        rating_text: "4.5",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "223",

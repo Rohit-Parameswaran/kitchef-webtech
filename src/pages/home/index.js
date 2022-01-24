@@ -27,7 +27,7 @@ const getCorrectScreen = (tab) => {
     case "Home-Cooks":
       return <DiningOut />;
 
-    case "Your Orders":
+    case "My Orders":
       return <Nightlife />;
 
     default:

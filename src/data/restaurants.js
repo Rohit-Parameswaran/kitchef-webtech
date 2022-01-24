@@ -3,7 +3,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 19879345,
-      name: "KFC",
+      name: "Butter Naan",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/6/800126/9410759d611db9c62c3acc23c1f27e06_o2_featured_v2.jpg",
       },
@@ -58,10 +58,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹450 for two",
+        text: "₹400 for two",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹200 for one",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -101,7 +101,7 @@ export const restaurants = [
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹200 for one",
       },
     },
     order: {

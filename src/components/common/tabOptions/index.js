@@ -18,7 +18,7 @@ const tabs = [
   },
   {
     id: 3,
-    name: "Log-in",
+    name: "My Orders",
     active_img:"loginlogo.png",
     backdrop: "#EDf4FF",
     inactive_img:"loginlogo.png",
