@@ -63,7 +63,7 @@ const App = () => {
     fire.auth().signOut();
   };
 
-  const authListener = () => {
+  const authListener = () => { //If user exists or not
     console.log(fire.default);
     fire.auth().onAuthStateChanged((user) => {
       if (user) {
