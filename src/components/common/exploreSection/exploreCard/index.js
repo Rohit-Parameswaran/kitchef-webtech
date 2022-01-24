@@ -3,10 +3,10 @@ import "./exploreCard.css";
 import fire from "../../../../fire.js";
 
 const handleOrder = (id, chef) => {
-  const order = { id, chef};
   const db = fire.database();
-  const userOrders = db.ref('User1');
-  userOrders.push(order);
+  const userName = localStorage.getItem('Current User').split(/@|\./).join("");
+  const userOrders = db.ref(userName + "/userOrders");
+  userOrders.update({[id]: chef});
 };
 
 const ExploreCard = ({ restaurant, i }) => {

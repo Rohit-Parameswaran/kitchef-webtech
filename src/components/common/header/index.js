@@ -29,12 +29,12 @@ const Header = (props) => {
 
         <div className="profile-wrapper">
           <img
-            src="login.png"
+            src="user.jpg"
             className="header-profile-image"
             alt="sign-in logo"
           />
           <span className="header-username">{user.bc.email}</span>
-          <button onClick={handleLogout} className="button">Logout</button>
+          <button onClick={handleLogout} className="logout-button">Logout</button>
           
         </div>
       </div>

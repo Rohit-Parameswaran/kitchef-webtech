@@ -87,6 +87,7 @@
 .header-profile-image {
   height: 40px;
   width: 40px;
+  margin: 0px 0px 0px -20px;
   border-radius: 50%;
 }
 
@@ -100,8 +101,17 @@
   font-size: 20px;
 }
 
-.button{
+.logout-button{
   font-size:16px;
   margin-left: 12px;
-  background-color:#f44336;
+  padding: 7px;
+  border-radius: 10%; 
+  box-shadow: var(--primary-box-shadow);
+  border: 1px solid var(--border-white);
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.logout-button:hover {
+  background-color: #eee;
 }
