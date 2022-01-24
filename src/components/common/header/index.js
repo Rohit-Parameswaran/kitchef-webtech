@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./header.css";
 
 const Header = (props) => {
@@ -32,8 +33,12 @@ const Header = (props) => {
             className="header-profile-image"
             alt="sign-in logo"
           />
-          <span onClick={handleLogout} className="header-username">{user.bc.email}</span>
-          <i className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
+          <span className="header-username">{user.bc.email}</span>
+          <select>
+          <option onClick={handleLogout} value="LOGOUT">LOGOUT </option>
+          <i onClick={handleLogout} className="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
+          </select>
+          
         </div>
       </div>
     </div>
