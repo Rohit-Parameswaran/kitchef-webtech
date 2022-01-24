@@ -1,7 +1,16 @@
 import React from "react";
 import "./exploreCard.css";
+import fire from "../../../../fire.js";
+
+const handleOrder = (id, chef) => {
+  const order = { id, chef};
+  const db = fire.database();
+  const userOrders = db.ref('User1');
+  userOrders.push(order);
+};
 
 const ExploreCard = ({ restaurant, i }) => {
+  const resId = restaurant?.info?.resId;
   const name = restaurant?.info?.name ?? "";
   const coverImg =
     restaurant?.info?.image?.url ?? restaurant?.info?.o2FeaturedImage?.url;
@@ -30,18 +39,20 @@ const ExploreCard = ({ restaurant, i }) => {
           className="explore-card-image"
           alt={restaurant.info.name}
         />
-        <div className="delivery-time">{deliveryTime}</div>
-        {proOff && <div className="pro-off">{proOff}</div>}
+        {proOff && <div className="pro-off">{proOff}</div>};
         {goldOff && <div className="gold-off absolute-center">{goldOff}</div>}
         {discount && <div className="discount absolute-center">{discount}</div>}
       </div>
       <div className="res-row">
         <div className="res-name">{name}</div>
-        {rating && (
-          <div className="res-rating absolute-center">
-            {rating} <i className="fi fi-sr-star absolute-center" />
-          </div>
-        )}
+        <div
+          className="res-rating absolute-center"
+          onClick={() => {
+            handleOrder(resId, cuisines[0]);
+          }}
+        >
+          Order
+        </div>
       </div>
       <div className="res-row">
         {cuisines.length && (

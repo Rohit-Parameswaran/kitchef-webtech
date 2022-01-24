@@ -3,9 +3,10 @@ import { nightLife } from "../../data/nightLife";
 import Collection from "../common/collection";
 import ExploreSection from "../common/exploreSection";
 import Filters from "../common/filters";
+import entry from "../delivery/Entry";
 import "./nightlife.css";
 
-const nightLifeList = nightLife;
+/*const nightLifeList = nightLife;
 const nightFilters = [
   {
     id: 1,
@@ -75,20 +76,24 @@ const collectionList = [
     places: "9 Places",
   },
 ];
-
+*/
 const Nightlife = () => {
   return (
     <div>
-      <Collection list={collectionList} />
-      {/* <div className="max-width">
-        <Filters filterList={nightFilters} />
-      </div> */}
-      <ExploreSection
+      {/*<Collection list={collectionList} />
+       <div className="max-width">
+        <Filters filterList={nightFilters} />*/}
+        <center>
+          <br></br>
+        <h1 className="h1">ORDERED ITEMS</h1>
+        </center>
+      </div> 
+       );
+      };      
+      {/*<ExploreSection
         restaurants={nightLifeList}
         collectionName="Nightlife Restaurants in Chennai"
-      />
-    </div>
-  );
-};
+      />*/}
+ 
 
 export default Nightlife;

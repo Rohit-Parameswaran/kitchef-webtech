@@ -69,6 +69,7 @@ const App = () => {
       if (user) {
         clearInputs();
         setUser(user);
+        localStorage.setItem('Current User', user.bc.email);
       } else {
         setUser("");
       }

@@ -5,15 +5,14 @@ export const restaurants = [
       resId: 19879345,
       name: "Butter Naan",
       image: {
-        url: "https://b.zmtcdn.com/data/pictures/chains/6/800126/9410759d611db9c62c3acc23c1f27e06_o2_featured_v2.jpg",
+        url: "https://www.cookwithmanali.com/wp-content/uploads/2014/11/Soft-Homemade-Naan-768x1164.jpg",
       },
       o2FeaturedImage: {
         url: "https://b.zmtcdn.com/data/pictures/chains/6/800126/9410759d611db9c62c3acc23c1f27e06_o2_featured_v2.jpg",
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
+       
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "194",
@@ -58,10 +57,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹400 for two",
+        text: "₹400 ",
       },
       cfo: {
-        text: "₹200 for one",
+        text: "₹200 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -78,34 +77,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTY4XCJdfSJd",
           url: "https://www.zomato.com/lucknow/restaurants/burger/",
-          name: "Burger",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
+          name: "Chef Selvi",
+        }
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹200 for one",
+        text: "₹200 ",
       },
     },
     order: {
-      deliveryTime: "36 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -136,23 +116,14 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "20% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
+    checkBulkOffers: false,
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "1100+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
     ],
   },
@@ -160,7 +131,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800228,
-      name: "Marksmen",
+      name: "Noodles",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/800228/b4975f178b8c9264498a65735f5d4263_o2_featured_v2.jpg",
       },
@@ -169,8 +140,7 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
+     
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "19.7K",
@@ -215,10 +185,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹600 for two",
+        text: "₹600 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Lalbagh, Lucknow",
@@ -234,34 +204,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
+          name: "Chef Ramya",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/south-indian/",
-          name: "South Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
+        
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "35 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -292,30 +244,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 20% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "20% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "7950+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -330,17 +265,16 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800260,
-      name: "McDonald's",
+      name: "Burger",
       image: {
-        url: "https://b.zmtcdn.com/data/pictures/chains/0/800260/0094c2b5485c4c2f52c931306442269b_o2_featured_v2.jpg",
+        url: "https://www.thespruceeats.com/thmb/vJUFf6L4p8y9Cn_1pE9Z7Ua9uok=/3000x2001/filters:fill(auto,1)/indian-style-burger-1957599-hero-01-266103a4bb4e4ee7b5feb4da2d2e99da.jpg",
       },
       o2FeaturedImage: {
         url: "https://b.zmtcdn.com/data/pictures/chains/0/800260/0094c2b5485c4c2f52c931306442269b_o2_featured_v2.jpg",
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
+       
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "6,586",
@@ -385,10 +319,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹500 for two",
+        text: "₹500 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Sahara Ganj Mall, Hazratganj, Lucknow",
@@ -405,28 +339,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTY4XCJdfSJd",
           url: "https://www.zomato.com/lucknow/restaurants/burger/",
-          name: "Burger",
+          name: "Chef Pasupathy",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
+       
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "36 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -458,22 +380,13 @@ export const restaurants = [
     allCTA: [],
     promoOffer: "",
     checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "30% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "10250+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -497,8 +410,7 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
+       
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "27.8K",
@@ -543,10 +455,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹400 for two",
+        text: "₹400 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Aliganj, Lucknow",
@@ -562,40 +474,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
+          name: "Chef Virat",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mithai/",
-          name: "Mithai",
-        },
+        
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "35 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -626,23 +514,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "₹75 OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "8675+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -666,8 +544,7 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
+    
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "13.9K",
@@ -712,10 +589,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹800 for two",
+        text: "₹800 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -732,52 +609,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
+          name: "Chef Rai",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/south-indian/",
-          name: "South Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
+       
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "48 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -808,23 +649,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "₹75 OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "6575+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -839,7 +670,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800623,
-      name: "Alamgir Hotel",
+      name: "Bengali Sweet",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/800623/db2af0909d9d47da97d29378b3d36ebc_o2_featured_v2.jpg",
       },
@@ -848,8 +679,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "14.6K",
@@ -894,10 +723,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹350 for two",
+        text: "₹350 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Aminabad, Lucknow",
@@ -913,16 +742,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
+          name: "Chef Goku",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "36 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -953,23 +781,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "50% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "5275+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -984,7 +802,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800301,
-      name: "Aadab-e-Dastarkhwan",
+      name: "Tandoori Grill",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/1/800301/207ed2ffee3ba2300464c26b15ba1b0d_o2_featured_v2.jpg",
       },
@@ -993,8 +811,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "10.9K",
@@ -1039,10 +855,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹600 for two",
+        text: "₹600 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Indira Nagar, Lucknow",
@@ -1058,34 +874,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
+          name: "Chef Damo",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTU3XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/lucknowi/",
-          name: "Lucknowi",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
+       
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "40 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1116,23 +914,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "₹75 OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "8175+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1147,7 +935,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18877935,
-      name: "La Pino'z Pizza",
+      name: " Spicy Pizza",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/0/18798800/7c9f7c11939dcfdf4602edaa44329167_o2_featured_v2.jpg",
       },
@@ -1156,8 +944,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "33.1K",
@@ -1202,10 +988,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹800 for two",
+        text: "₹800 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -1221,28 +1007,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
+          name: "Chef Akash",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
+       
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "34 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1273,23 +1047,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "16450+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1304,17 +1068,15 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 19270356,
-      name: "Burger King",
+      name: "Potato Wedges",
       image: {
-        url: "https://b.zmtcdn.com/data/pictures/chains/3/19165593/9f2f843523d0e8b9ecd9ee9ee32c1c46_o2_featured_v2.jpg",
+        url: "https://www.errenskitchen.com/wp-content/uploads/2014/05/Seasoned-Baked-Potato-Wedges4-1200-500x500.jpg",
       },
       o2FeaturedImage: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/19165593/9f2f843523d0e8b9ecd9ee9ee32c1c46_o2_featured_v2.jpg",
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "7,572",
@@ -1359,10 +1121,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹350 for two",
+        text: "₹350 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -1378,28 +1140,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTY4XCJdfSJd",
           url: "https://www.zomato.com/lucknow/restaurants/burger/",
-          name: "Burger",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
+          name: "Chef Selvi",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "47 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1430,23 +1179,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "8175+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1461,7 +1200,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800279,
-      name: "Grandson of Tunday Kababi",
+      name: "Kababs",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/9/800279/8abdada7f34c0384e98473c4092c6076_o2_featured_v2.jpg",
       },
@@ -1470,8 +1209,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "6,831",
@@ -1516,10 +1253,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹400 for two",
+        text: "₹400 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Sahara Ganj Mall, Hazratganj, Lucknow",
@@ -1535,28 +1272,16 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
+          name: "Chef Virat",
         },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTU3XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/lucknowi/",
-          name: "Lucknowi",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/biryani/",
-          name: "Biryani",
-        },
+      
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "37 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1587,23 +1312,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "40% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "3725+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1618,7 +1333,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800894,
-      name: "Mubeen's",
+      name: "Arabian Food",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/4/800894/3a0714eeafd6a9d526ebe0262cfec1f1_o2_featured_v2.jpg",
       },
@@ -1627,8 +1342,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "62.9K",
@@ -1673,10 +1386,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹300 for two",
+        text: "₹300 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Chowk, Lucknow",
@@ -1692,16 +1405,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
+          name: "Chef Selvi",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "39 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1732,23 +1444,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "50% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "13350+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1763,7 +1465,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18890035,
-      name: "UBQ By Barbeque Nation",
+      name: "Box of gifts",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/18890035/2d2b03b528e425b5250c2a4f0c6a27c3_o2_featured_v2.jpg",
       },
@@ -1772,8 +1474,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.9",
-        rating_text: "3.9",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "2,755",
@@ -1818,10 +1518,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹400 for two",
+        text: "₹400 ",
       },
       cfo: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
       locality: {
         name: "Riverside Mall, Gomti Nagar, Lucknow",
@@ -1837,34 +1537,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/biryani/",
-          name: "Biryani",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTkzXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/bbq/",
-          name: "BBQ",
+          name: "Chef Damo",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹250 for one",
+        text: "₹250 ",
       },
     },
     order: {
-      deliveryTime: "43 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -1895,23 +1576,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "20% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "1775+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -1926,7 +1597,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 19181785,
-      name: "Garden Bakery",
+      name: "Blueberry Cake",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/5/19181785/b23c4294327431652c8124a5f56b9120_o2_featured_v2.jpg",
       },
@@ -1935,8 +1606,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "6,860",
@@ -1981,10 +1650,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹800 for two",
+        text: "₹800 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Indira Nagar, Lucknow",
@@ -2000,58 +1669,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
           url: "https://www.zomato.com/lucknow/restaurants/bakery/",
-          name: "Bakery",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pasta/",
-          name: "Pasta",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MFwiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/coffee/",
-          name: "Coffee",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
+          name: "Chef Selvi",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "30 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2082,30 +1708,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 10% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "50% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "8075+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2120,7 +1729,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18923813,
-      name: "WOW! Momo",
+      name: "Momo",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/3/18689923/cc7cfcafbaa312b8e003ab60181246b0_o2_featured_v2.jpg",
       },
@@ -2129,8 +1738,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.7",
-        rating_text: "3.7",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "2,182",
@@ -2175,10 +1782,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹400 for two",
+        text: "₹400 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -2194,28 +1801,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA1MVwiXX0iXQ%3D%3D",
           url: "https://www.zomato.com/lucknow/restaurants/momos/",
-          name: "Momos",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTNcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/tibetan/",
-          name: "Tibetan",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
+          name: "Chef Pasupathy",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "29 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2246,23 +1840,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "50% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "1400+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2277,7 +1861,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18941050,
-      name: "Shri Surendra Bhojanalya",
+      name: "Peas Soup",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/0/18941050/1b78d5497525ecd1a059dc79db3e1726_o2_featured_v2.jpg",
       },
@@ -2286,8 +1870,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.7",
-        rating_text: "3.7",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "32.8K",
@@ -2332,10 +1914,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹300 for two",
+        text: "₹300 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Aliganj, Lucknow",
@@ -2352,28 +1934,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/south-indian/",
-          name: "South Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
+          name: "Chef Rai",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "42 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2404,30 +1973,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 15% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "21775+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2442,7 +1994,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 800424,
-      name: "Durgma Restaurant",
+      name: "North Indian Delight",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/4/800424/b55b1bb8a4ed117708e384ce934b3ac0_o2_featured_v2.jpg",
       },
@@ -2451,8 +2003,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.0",
-        rating_text: "4.0",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "16K",
@@ -2497,10 +2047,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹250 for two",
+        text: "₹250 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Lalbagh, Lucknow",
@@ -2516,16 +2066,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
+          name: "Chef Akash",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "35 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2556,23 +2105,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "40% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "4525+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2587,7 +2126,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 801203,
-      name: "On High - Hotel Silvete",
+      name: "Paratha",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/3/801203/df51bd1dff3997ad6f9a0de0365aeb0c_o2_featured_v2.jpg",
       },
@@ -2596,8 +2135,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.0",
-        rating_text: "4.0",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "5,783",
@@ -2642,10 +2179,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹1,100 for two",
+        text: "₹1,100 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -2661,52 +2198,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjI3XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/bar-food/",
-          name: "Bar Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/salad/",
-          name: "Salad",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
+          name: "Chef Ramya",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "36 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2737,30 +2237,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 15% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "2000+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2775,7 +2258,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18893853,
-      name: "The Belgian Waffle Co.",
+      name: "Waffles",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/2/18639812/cfbda35382090ddbf5128a946c235f74_o2_featured_v2.jpg",
       },
@@ -2784,8 +2267,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.2",
-        rating_text: "4.2",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "3,033",
@@ -2830,10 +2311,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹300 for two",
+        text: "₹300 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -2849,22 +2330,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
           url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
+          name: "Chef Virat",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "36 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -2895,23 +2369,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "20% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "1950+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -2926,7 +2390,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 19316179,
-      name: "NIC - Natural Ice Creams",
+      name: "Mango Ice Cream",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/5/19316175/022bf8e7feae2e092fa615e50798353b_o2_featured_v2.jpg",
       },
@@ -2935,8 +2399,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.4",
-        rating_text: "4.4",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "2,162",
@@ -2981,10 +2443,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹200 for two",
+        text: "₹200 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -3001,22 +2463,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjMzXCJdfSJd",
           url: "https://www.zomato.com/lucknow/restaurants/ice-cream/",
-          name: "Ice Cream",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
+          name: "Chef Jacob Kirsten",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "24 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3047,30 +2502,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 15% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "50% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "2900+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -3094,8 +2532,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.4",
-        rating_text: "4.4",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "5,267",
@@ -3140,10 +2576,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹700 for two",
+        text: "₹700 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Lalbagh, Lucknow",
@@ -3159,34 +2595,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTU3XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/lucknowi/",
-          name: "Lucknowi",
+          name: "Chef Selvi",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "41 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3217,23 +2634,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "₹75 OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "3050+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -3257,8 +2664,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.9",
-        rating_text: "3.9",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "23.3K",
@@ -3303,10 +2708,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹300 for two",
+        text: "₹300 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Aminabad, Lucknow",
@@ -3322,28 +2727,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/biryani/",
-          name: "Biryani",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyM1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/rolls/",
-          name: "Rolls",
+          name: "Chef Pasupathy",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "29 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3374,30 +2766,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 20% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "30% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "3975+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -3421,8 +2796,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.1",
-        rating_text: "4.1",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "4,091",
@@ -3467,10 +2840,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹800 for two",
+        text: "₹800 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Hazratganj, Lucknow",
@@ -3487,58 +2860,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/chinese/",
-          name: "Chinese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/south-indian/",
-          name: "South Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
+          name: "Chef Rai",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "40 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3569,23 +2899,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "40% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "2150+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -3600,7 +2920,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 19663876,
-      name: "Dine Out City ( DOC)",
+      name: "Home Cook's Fantasy",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/6/19663876/40902c4d26bb33451173484826286932_o2_featured_v2.jpg",
       },
@@ -3609,8 +2929,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "4.0",
-        rating_text: "4.0",
         rating_subtitle: "Very Good",
         rating_color: "5BA829",
         votes: "1,499",
@@ -3655,10 +2973,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹700 for two",
+        text: "₹700 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Aliganj, Lucknow",
@@ -3674,58 +2992,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/asian/",
-          name: "Asian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzNcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mexican/",
-          name: "Mexican",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/japanese/",
-          name: "Japanese",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/thai/",
-          name: "Thai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc3XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/sushi/",
-          name: "Sushi",
+          name: "Chef Ramya",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "41 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3756,30 +3031,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 15% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "3250+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
@@ -3794,7 +3052,7 @@ export const restaurants = [
     type: "restaurant",
     info: {
       resId: 18762498,
-      name: "Mughlai The Taste",
+      name: "Biriyani",
       image: {
         url: "https://b.zmtcdn.com/data/pictures/chains/8/18762498/2c2eb6521957d4e16b08cb9f6f207462_o2_featured_v2.jpg",
       },
@@ -3803,8 +3061,6 @@ export const restaurants = [
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.9",
-        rating_text: "3.9",
         rating_subtitle: "Good",
         rating_color: "9ACD32",
         votes: "40.5K",
@@ -3849,10 +3105,10 @@ export const restaurants = [
         },
       },
       cft: {
-        text: "₹450 for two",
+        text: "₹450 ",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
       locality: {
         name: "Aliganj, Lucknow",
@@ -3869,40 +3125,15 @@ export const restaurants = [
           deeplink:
             "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
           url: "https://www.zomato.com/lucknow/restaurants/mughlai/",
-          name: "Mughlai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/biryani/",
-          name: "Biryani",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/north-indian/",
-          name: "North Indian",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc4XCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/kebab/",
-          name: "Kebab",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
+          name: "Chef Damo",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹100 for one",
+        text: "₹100 ",
       },
     },
     order: {
-      deliveryTime: "39 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {
@@ -3933,30 +3164,13 @@ export const restaurants = [
     ],
     allCTA: [],
     promoOffer: "",
-    checkBulkOffers: true,
-    bulkOffers: [
-      {
-        text: "Pro extra 20% OFF",
-        color: {
-          tint: "600",
-          type: "pink",
-        },
-      },
-      {
-        text: "60% OFF",
-        color: {
-          tint: "500",
-          type: "blue",
-        },
-      },
-    ],
     isDisabled: false,
     bottomContainers: [
       {
         image: {
-          url: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png",
+          url: "https://qph.fs.quoracdn.net/main-qimg-a29af138b06636f046f0f98ade4406d8",
         },
-        text: "7975+ orders placed from here recently",
+        text: "COVID SOP followed",
       },
       {
         image: {
