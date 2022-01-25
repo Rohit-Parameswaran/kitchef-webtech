@@ -73,7 +73,7 @@
 
 .search-input {
   border: none;
-  width: 150%;
+  width: 188%;
   font-size: 14px;
   outline: none;
 }
@@ -112,14 +112,7 @@
   background-color: #fff;
 }
 .search-button{
-  font-size:13px;
-  margin-left: 1px;
-  padding: 5px;
-  border-radius: 8%; 
-  box-shadow: var(--primary-box-shadow);
-  border: 1px solid var(--border-white);
-  cursor: pointer;
-  background-color: #fff;
+  display: none
 }
 
 .logout-button:hover {

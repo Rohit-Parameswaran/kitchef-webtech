@@ -2,6 +2,10 @@
 @import "./styles/commonClasses.css";
 @import "./styles/variable.css";
 
+* {
+  transition: all 0.2s ease-in; 
+}
+
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
