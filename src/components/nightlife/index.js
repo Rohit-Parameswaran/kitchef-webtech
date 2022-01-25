@@ -9,8 +9,7 @@ import fire from "../../fire.js";
 import { restaurants } from "../../data/restaurants"
 
 const Nightlife = () => {
-
-  const [pair, setpair] = useState();
+  
   const [wasOrderCancelled, setWasOrderCancelled] = useState(false);
 
   const db = fire.database();

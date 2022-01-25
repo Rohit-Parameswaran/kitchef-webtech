@@ -24,7 +24,7 @@ const getCorrectScreen = (tab) => {
     case "Food":
       return <Delivery />;
 
-    case "Home-Cooks":
+    case "Home-Chefs":
       return <DiningOut />;
 
     case "My Orders":

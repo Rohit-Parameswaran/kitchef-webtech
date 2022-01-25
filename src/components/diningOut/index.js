@@ -12,7 +12,7 @@ const DiningOut = () => {
     <div>
       <ExploreSection
         restaurants={diningList}
-        collectionName="Our home-cooks"
+        collectionName="Our home-chefs"
       />
     </div>
   );

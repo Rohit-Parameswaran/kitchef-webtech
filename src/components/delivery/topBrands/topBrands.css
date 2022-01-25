@@ -17,3 +17,7 @@
   width: 100%;
   object-fit: cover;
 }
+
+.top-brands-cover:hover {
+  transform: scale(1.1);
+}

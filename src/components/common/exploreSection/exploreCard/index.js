@@ -1,25 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./exploreCard.css";
 import fire from "../../../../fire.js";
 
-const handleOrder = (id, chef) => {
+const handleOrder = (id, chef, setOrderState) => {
   const db = fire.database();
-  const userName = localStorage.getItem('Current User').split(/@|\./).join("");
+  const userName = localStorage.getItem("Current User").split(/@|\./).join("");
   const userOrders = db.ref(userName + "/userOrders");
   userOrders.update({ [id]: chef });
+  setOrderState("Ordered");
 };
 
-
 const ExploreCard = ({ restaurant, i, showVal, setWasOrderCancelled }) => {
-  const handleCancel=async (id,chef) => {
+  const handleCancel = async (id, chef) => {
     const db = fire.database();
-    const userName = localStorage.getItem('Current User').split(/@|\./).join("");
+    const userName = localStorage
+      .getItem("Current User")
+      .split(/@|\./)
+      .join("");
     const userOrders = db.ref(userName + "/userOrders").child(id);
     userOrders.remove();
     await setWasOrderCancelled(true);
     setWasOrderCancelled(false);
   };
 
+  const [orderState, setOrderState] = useState("Order");
   const resId = restaurant?.info?.resId;
   const name = restaurant?.info?.name ?? "";
   const coverImg =
@@ -38,8 +42,8 @@ const ExploreCard = ({ restaurant, i, showVal, setWasOrderCancelled }) => {
     offers.length > 1
       ? offers[1].text
       : offers.length === 1
-        ? offers[0].text
-        : null;
+      ? offers[0].text
+      : null;
 
   return (
     <div className={`explore-card cur-po ${i < 3 ? "explore-card-first" : ""}`}>
@@ -55,26 +59,26 @@ const ExploreCard = ({ restaurant, i, showVal, setWasOrderCancelled }) => {
       </div>
       <div className="res-row">
         <div className="res-name">{name}</div>
-        {showVal === 1 && (<div
-          className="res-rating absolute-center"
-          onClick={() => {
-            handleOrder(resId, cuisines[0]);
-          }}
-        >
-          Order
-        </div>)}
-        {
-          showVal === 3 && (
-            <div
-              className="res-rating res-rating-cancel absolute-center"
-              onClick={() => {
-                handleCancel(resId, cuisines[0]);
-              }}
-            >
-              Cancel
-            </div>
-          )
-        }
+        {showVal === 1 && (
+          <div
+            className="res-rating absolute-center"
+            onClick={() => {
+              handleOrder(resId, cuisines[0], setOrderState);
+            }}
+          >
+            {orderState}
+          </div>
+        )}
+        {showVal === 3 && (
+          <div
+            className="res-rating res-rating-cancel absolute-center"
+            onClick={() => {
+              handleCancel(resId, cuisines[0]);
+            }}
+          >
+            Cancel
+          </div>
+        )}
       </div>
       <div className="res-row">
         {cuisines.length && (

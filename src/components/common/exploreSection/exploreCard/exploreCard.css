@@ -3,6 +3,7 @@
   padding: 10px;
   border-radius: 15px;
   border: 1px solid transparent;
+  box-shadow: var(--primary-box-shadow);
 }
 .explore-card-first {
   margin-top: 12px;
@@ -13,8 +14,8 @@
   border-radius: 15px;
   position: relative;
 }
-.explore-card:hover{
-  transform:scale(1.1);
+.explore-card:hover {
+  transform: scale(1.1);
 }
 .explore-card-image {
   height: 100%;
@@ -110,6 +111,7 @@
 
 .res-rating:hover {
   transform: scale(1.2);
+  box-shadow: var(--primary-box-shadow);
 }
 
 .res-rating-cancel {

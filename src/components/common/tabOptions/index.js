@@ -11,7 +11,7 @@ const tabs = [
   },
   {
     id: 2,
-    name: "Home-Cooks",
+    name: "Home-Chefs",
     active_img:"home.png",
     backdrop: "#E5F3F3",
     inactive_img:"home.png",

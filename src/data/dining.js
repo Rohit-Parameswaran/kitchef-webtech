@@ -147,21 +147,21 @@ export const dining = [
   {
     type: "restaurant",
     info: {
-      resId: 19425565,
-      name: "Chef Goku",
+      resId: 18970077,
+      name: "Chef Pasupathy",
       image: {
-        url: "https://b.zmtcdn.com/data/pictures/5/19425565/df53811bb9fc328d3d118e3a1e7df129_featured_v2.jpg",
+        url: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         urlWithParams:
-          "https://b.zmtcdn.com/data/pictures/5/19425565/df53811bb9fc328d3d118e3a1e7df129_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A",
+          "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
       },
       o2FeaturedImage: {
-        url: "https://b.zmtcdn.com/data/pictures/5/19425565/7f6319194a8d6417d2338e4407f829d2_o2_featured_v2.jpg",
+        url: "https://b.zmtcdn.com/data/pictures/7/18970077/21686b862df983224b771b4a405bc664_o2_featured_v2.jpeg",
       },
       rating: {
         has_fake_reviews: 0,
-        aggregate_rating: "3.8",
-        rating_color: "9ACD32",
-        votes: "333",
+        aggregate_rating: "4.5",
+        rating_color: "3F7E00",
+        votes: "15.6K",
         subtext: "REVIEWS",
         is_new: false,
       },
@@ -171,47 +171,47 @@ export const dining = [
         ratings: {
           DINING: {
             rating_type: "DINING",
-            rating: "3.9",
-            reviewCount: "100",
-            reviewTextSmall: "100 Reviews",
-            subtext: "100 Dining Reviews",
+            rating: "4.5",
+            reviewCount: "747",
+            reviewTextSmall: "747 Reviews",
+            subtext: "747 Dining Reviews",
             color: "#1C1C1C",
-            ratingV2: "3.9",
+            ratingV2: "4.5",
             subtitle: "DINING",
             sideSubTitle: "Dining Reviews",
             bgColorV2: {
               type: "green",
-              tint: "600",
+              tint: "700",
             },
           },
           DELIVERY: {
             rating_type: "DELIVERY",
-            rating: "3.7",
-            reviewCount: "233",
-            reviewTextSmall: "233 Reviews",
-            subtext: "233 Delivery Reviews",
+            rating: "4.4",
+            reviewCount: "14.8K",
+            reviewTextSmall: "14.8K Reviews",
+            subtext: "14.8K Delivery Reviews",
             color: "#E23744",
-            ratingV2: "3.7",
+            ratingV2: "4.4",
             subtitle: "DELIVERY",
             sideSubTitle: "Delivery Reviews",
             bgColorV2: {
               type: "green",
-              tint: "600",
+              tint: "700",
             },
             newOnDelivery: false,
           },
         },
       },
       cft: {
-        text: "₹1,200",
+        text: "₹400",
       },
       cfo: {
-        text: "Ph: 7295301823",
+        text: "Ph: 6871234567",
       },
       locality: {
-        name: "Gomti Nagar, Lucknow",
-        address: "Shop 1/120, Deva Palace, Patrakarpuram, Gomti Nagar, Lucknow",
-        localityUrl: "lucknow/gomti-nagar-restaurants",
+        name: "Nirala Nagar, Lucknow",
+        address: "B-192, Rama Krishna Math, Nirala Nagar, Lucknow",
+        localityUrl: "lucknow/nirala-nagar-restaurants",
       },
       timing: {
         text: "Closes in 29 minutes",
@@ -220,50 +220,81 @@ export const dining = [
       cuisine: [
         {
           deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/japanese/",
-          name: "Japanese",
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/bakery/",
+          name: "Bakery",
         },
         {
           deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTVcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/thai/",
-          name: "Thai",
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/mithai/",
+          name: "Mithai",
         },
         {
           deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjdcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/korean/",
-          name: "Korean",
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
+          name: "Fast Food",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/street-food/",
+          name: "Street Food",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
+          name: "Pizza",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
+          name: "Desserts",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
+          name: "Beverages",
         },
       ],
       should_ban_ugc: false,
       costText: {
-        text: "₹1,200",
+        text: "₹400",
       },
     },
     order: [],
+    gold: [],
     takeaway: [],
     cardAction: {
       text: "",
-      clickUrl: "/lucknow/goku-gomti-nagar/info",
+      clickUrl: "/lucknow/the-hazelnut-factory-nirala-nagar/info",
       clickActionDeeplink: "",
     },
-    distance: "5.7 km",
+    distance: "1.4 km",
     isPromoted: false,
     promotedText: "",
     trackingData: [
       {
         table_name: "zsearch_events_log",
         payload:
-          '{"search_id":"c2c9e9d0-0572-42fa-8cc0-16eeebb240cb","location_type":"delivery_cell","location_id":"4151190155136335872","page_type":"dineout","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"19425565","element_type":"listing","rank":30}',
+          '{"search_id":"c2c9e9d0-0572-42fa-8cc0-16eeebb240cb","location_type":"delivery_cell","location_id":"4151190155136335872","page_type":"dineout","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"18970077","element_type":"listing","rank":35}',
         event_names: {
           tap: '{"action":"tap"}',
           impression: '{"action":"impression"}',
         },
       },
     ],
-    allCTA: [],
+    allCTA: [
+      {
+        type: "chain_cta",
+        text: "View all outlets",
+        clickUrl: "/lucknow/restaurants/the-hazelnut-factory?category=2",
+      },
+    ],
     promoOffer: "",
     checkBulkOffers: false,
     bulkOffers: [],
@@ -580,6 +611,133 @@ export const dining = [
     isDisabled: false,
     bottomContainers: [],
   },
+
+  {
+    type: "restaurant",
+    info: {
+      resId: 19425565,
+      name: "Chef Goku",
+      image: {
+        url: "https://b.zmtcdn.com/data/pictures/5/19425565/df53811bb9fc328d3d118e3a1e7df129_featured_v2.jpg",
+        urlWithParams:
+          "https://b.zmtcdn.com/data/pictures/5/19425565/df53811bb9fc328d3d118e3a1e7df129_featured_v2.jpg?fit=around%7C108%3A108&crop=108%3A108%3B%2A%2C%2A",
+      },
+      o2FeaturedImage: {
+        url: "https://b.zmtcdn.com/data/pictures/5/19425565/7f6319194a8d6417d2338e4407f829d2_o2_featured_v2.jpg",
+      },
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.8",
+        rating_color: "9ACD32",
+        votes: "333",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "3.9",
+            reviewCount: "100",
+            reviewTextSmall: "100 Reviews",
+            subtext: "100 Dining Reviews",
+            color: "#1C1C1C",
+            ratingV2: "3.9",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "600",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.7",
+            reviewCount: "233",
+            reviewTextSmall: "233 Reviews",
+            subtext: "233 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.7",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "600",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹1,200",
+      },
+      cfo: {
+        text: "Ph: 7295301823",
+      },
+      locality: {
+        name: "Gomti Nagar, Lucknow",
+        address: "Shop 1/120, Deva Palace, Patrakarpuram, Gomti Nagar, Lucknow",
+        localityUrl: "lucknow/gomti-nagar-restaurants",
+      },
+      timing: {
+        text: "Closes in 29 minutes",
+        color: "#ab000d",
+      },
+      cuisine: [
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjBcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/japanese/",
+          name: "Japanese",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTVcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/thai/",
+          name: "Thai",
+        },
+        {
+          deeplink:
+            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjdcIl19Il0%3D",
+          url: "https://www.zomato.com/lucknow/restaurants/korean/",
+          name: "Korean",
+        },
+      ],
+      should_ban_ugc: false,
+      costText: {
+        text: "₹1,200",
+      },
+    },
+    order: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/lucknow/goku-gomti-nagar/info",
+      clickActionDeeplink: "",
+    },
+    distance: "5.7 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"c2c9e9d0-0572-42fa-8cc0-16eeebb240cb","location_type":"delivery_cell","location_id":"4151190155136335872","page_type":"dineout","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"19425565","element_type":"listing","rank":30}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: false,
+    bulkOffers: [],
+    isDisabled: false,
+    bottomContainers: [],
+  },
   {
     type: "restaurant",
     info: {
@@ -869,163 +1027,6 @@ export const dining = [
         type: "booking_cta",
         text: "Book a Table",
         clickUrl: "/lucknow/the-beer-cafe-biggie-hazratganj/book",
-      },
-    ],
-    promoOffer: "",
-    checkBulkOffers: false,
-    bulkOffers: [],
-    isDisabled: false,
-    bottomContainers: [],
-  },
-  {
-    type: "restaurant",
-    info: {
-      resId: 18970077,
-      name: "Chef Pasupathy",
-      image: {
-        url: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        urlWithParams:
-          "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      },
-      o2FeaturedImage: {
-        url: "https://b.zmtcdn.com/data/pictures/7/18970077/21686b862df983224b771b4a405bc664_o2_featured_v2.jpeg",
-      },
-      rating: {
-        has_fake_reviews: 0,
-        aggregate_rating: "4.5",
-        rating_color: "3F7E00",
-        votes: "15.6K",
-        subtext: "REVIEWS",
-        is_new: false,
-      },
-      ratingNew: {
-        newlyOpenedObj: null,
-        suspiciousReviewObj: null,
-        ratings: {
-          DINING: {
-            rating_type: "DINING",
-            rating: "4.5",
-            reviewCount: "747",
-            reviewTextSmall: "747 Reviews",
-            subtext: "747 Dining Reviews",
-            color: "#1C1C1C",
-            ratingV2: "4.5",
-            subtitle: "DINING",
-            sideSubTitle: "Dining Reviews",
-            bgColorV2: {
-              type: "green",
-              tint: "700",
-            },
-          },
-          DELIVERY: {
-            rating_type: "DELIVERY",
-            rating: "4.4",
-            reviewCount: "14.8K",
-            reviewTextSmall: "14.8K Reviews",
-            subtext: "14.8K Delivery Reviews",
-            color: "#E23744",
-            ratingV2: "4.4",
-            subtitle: "DELIVERY",
-            sideSubTitle: "Delivery Reviews",
-            bgColorV2: {
-              type: "green",
-              tint: "700",
-            },
-            newOnDelivery: false,
-          },
-        },
-      },
-      cft: {
-        text: "₹400",
-      },
-      cfo: {
-        text: "Ph: 6871234567",
-      },
-      locality: {
-        name: "Nirala Nagar, Lucknow",
-        address: "B-192, Rama Krishna Math, Nirala Nagar, Lucknow",
-        localityUrl: "lucknow/nirala-nagar-restaurants",
-      },
-      timing: {
-        text: "Closes in 29 minutes",
-        color: "#ab000d",
-      },
-      cuisine: [
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/bakery/",
-          name: "Bakery",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/mithai/",
-          name: "Mithai",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/fast-food/",
-          name: "Fast Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/street-food/",
-          name: "Street Food",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-          url: "https://www.zomato.com/lucknow/restaurants/pizza/",
-          name: "Pizza",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/desserts/",
-          name: "Desserts",
-        },
-        {
-          deeplink:
-            "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-          url: "https://www.zomato.com/lucknow/restaurants/beverages/",
-          name: "Beverages",
-        },
-      ],
-      should_ban_ugc: false,
-      costText: {
-        text: "₹400",
-      },
-    },
-    order: [],
-    gold: [],
-    takeaway: [],
-    cardAction: {
-      text: "",
-      clickUrl: "/lucknow/the-hazelnut-factory-nirala-nagar/info",
-      clickActionDeeplink: "",
-    },
-    distance: "1.4 km",
-    isPromoted: false,
-    promotedText: "",
-    trackingData: [
-      {
-        table_name: "zsearch_events_log",
-        payload:
-          '{"search_id":"c2c9e9d0-0572-42fa-8cc0-16eeebb240cb","location_type":"delivery_cell","location_id":"4151190155136335872","page_type":"dineout","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"18970077","element_type":"listing","rank":35}',
-        event_names: {
-          tap: '{"action":"tap"}',
-          impression: '{"action":"impression"}',
-        },
-      },
-    ],
-    allCTA: [
-      {
-        type: "chain_cta",
-        text: "View all outlets",
-        clickUrl: "/lucknow/restaurants/the-hazelnut-factory?category=2",
       },
     ],
     promoOffer: "",

@@ -4,6 +4,7 @@
   background-color: var(--primary-bg);
   box-shadow: var(--collection-shadow);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .delivery-item-image {

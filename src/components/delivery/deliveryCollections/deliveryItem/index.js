@@ -2,7 +2,7 @@ import React from "react";
 import "./deliveryItem.css";
 const DeliveryItem = ({ item }) => {
   return (
-    <div>
+    <div class="delivery-card">
       <div className="delivery-item-cover">
         <img
           src={item.cover}
