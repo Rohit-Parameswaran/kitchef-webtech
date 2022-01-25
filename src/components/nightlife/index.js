@@ -1,10 +1,11 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import { nightLife } from "../../data/nightLife";
 import Collection from "../common/collection";
 import ExploreSection from "../common/exploreSection";
 import Filters from "../common/filters";
 import entry from "../delivery/Entry";
 import "./nightlife.css";
+import fire from "../../fire.js";
 
 /*const nightLifeList = nightLife;
 const nightFilters = [
@@ -77,7 +78,24 @@ const collectionList = [
   },
 ];
 */
+
 const Nightlife = () => {
+  
+  const [pair, setpair] = useState();
+  useEffect(()=>{
+  const db = fire.database();
+  const userName = localStorage.getItem('Current User').split(/@|\./).join("");
+  const orderlist=db.ref(userName+ "/userOrders");
+  orderlist.on('value',(snapshot)=>{
+  const ord=snapshot.val();
+  const pair=[];
+  for (let id in ord) {
+    pair.push({ id, ...ord[id] });
+  }
+  setpair(pair);
+  console.log('Fetched'+pair[0])
+});
+},[]);
   return (
     <div>
       {/*<Collection list={collectionList} />
@@ -87,6 +105,8 @@ const Nightlife = () => {
           <br></br>
         <h1 className="h1">ORDERED ITEMS</h1>
         </center>
+        
+
       </div> 
        );
       };      

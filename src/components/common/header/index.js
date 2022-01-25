@@ -20,10 +20,13 @@ const Header = (props) => {
           <div className="location-search-separator"></div>
           <div className="header-searchBar">
             <i className="fi fi-rr-search absolute-center search-icon"></i>
-            <input
+            <form>
+            <input type="text"
               className="search-input"
               placeholder="Search for your favourite dishes and home-cooks"
             />
+            <input type="submit" className="search-button" value="Search"/>
+            </form>
           </div>
         </div>
 
