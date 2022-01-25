@@ -24,7 +24,7 @@ const Header = (props) => {
               <i className="fi fi-rr-marker absolute-center location-icon"></i>
               <div>Chennai</div>
             </div>
-            {/* <i className="fi fi-rr-caret-down absolute-center"></i> */}
+            
           </div>
           <div className="location-search-separator"></div>
           <div className="header-searchBar">

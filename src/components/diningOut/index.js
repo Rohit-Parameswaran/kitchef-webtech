@@ -1,8 +1,6 @@
 import React from "react";
 import { dining } from "../../data/dining";
-import Collection from "../common/collection";
 import ExploreSection from "../common/exploreSection";
-import Filters from "../common/filters";
 import "./diningOut.css";
 
 const diningList = dining;

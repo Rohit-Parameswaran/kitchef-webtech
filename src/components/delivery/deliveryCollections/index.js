@@ -1,7 +1,6 @@
 import React from "react";
 import "./deliveryCollections.css";
 import DeliveryItem from "./deliveryItem";
-import Carousel from "react-grid-carousel";
 import Slider from "react-slick";
 import PrevArrow from "../../common/carousel/prevArrow";
 import NextArrow from "../../common/carousel/nextArrow";

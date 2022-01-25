@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { nightLife } from "../../data/nightLife";
-import Collection from "../common/collection";
 import ExploreSection from "../common/exploreSection";
-import Filters from "../common/filters";
-import entry from "../delivery/Entry";
 import "./nightlife.css";
 import fire from "../../fire.js";
 import { restaurants } from "../../data/restaurants"
